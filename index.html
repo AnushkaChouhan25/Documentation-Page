@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+   
+    <nav class="navbar">
+        <h1>MERN ROADMAP</h1>
+        <ul class="navul">
+            <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#js">JAVASCRIPT</a></li>
+                <li><a href="#node">Node js</a></li>
+                <li><a href="#express">Express js</a></li>
+                <li><a href="#db">Databases</a></li>
+                <li><a href="#mongo">Mongo DB</a></li>
+                <li><a href="#mongoose">Mongoose</a></li>
+                <li><a href="#hosting">Hosting</a></li>
+                <li><a href="#react">React</a></li>
+                <li><a href="#next">Next js</a></li>
+                <li><a href="#project">Projects</a></li>
+        </ul>
+        </header>
+    </nav>
+
+    <div class="container">
+        <section class="main-sec" id="html">
+            <h2>HTML</h2>
+            <article>
+                <p>HTML (HyperText Markup Language) is the standard language for creating web pages. It provides the
+                    structure of a webpage.</p>
+                <ul>
+                    <li>Learn the basic tags (e.g., &lt;div&gt;, &lt;h1&gt;, &lt;p&gt;, &lt;a&gt;, &lt;img&gt;,
+                        etc.).</li>
+                    <li>Understand the use of attributes and how to embed media (images, videos).</li>
+                    <li>Learn about forms and input elements.</li>
+                    <li>Understand semantic HTML for better accessibility and SEO.</li>
+                    <li>Familiarize yourself with HTML5 new elements and APIs.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-sec" id="css">
+            <h2>CSS</h2>
+            <article>
+                <p> CSS (Cascading Style Sheets) is used to style and layout web pages. It controls the appearance
+                    of HTML elements.</p>
+                <ul>
+                    <li>Learn the basic properties (e.g., <code>color</code>, <code>font-size</code>,
+                        <code>margin</code>, <code>padding</code>, <code>border</code>, etc.).
+                    </li>
+                    <li>Understand the box model (margin, border, padding, content).</li>
+                    <li>Learn to use Flexbox and Grid for layout.</li>
+                    <li>Explore responsive design with media queries.</li>
+                    <li>Understand CSS preprocessors like SASS or LESS.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-sec" id="js">
+            <h2>JAVASCRIPT</h2>
+            <article>
+                <p>
+                    JavaScript is a programming language used to create dynamic content on websites. It's essential
+                    for client-side scripting.
+                </p>
+                <ul>
+                    <li>Learn basic syntax and data structures (e.g., <code>let</code>, <code>const</code>,
+                        <code>var</code>, <code>array</code>, <code>object</code>).
+                    </li>
+                    <li>Understand control structures (e.g., <code>for</code>, <code>while</code>, <code>if</code>,
+                        <code>switch</code>).
+                    </li>
+                    <li>Get familiar with functions and ES6+ features (e.g., <code>arrow functions</code>,
+                        <code>destructuring</code>).
+                    </li>
+                    <li>Learn DOM manipulation and event handling (e.g., <code>document.getElementById</code>,
+                        <code>addEventListener</code>).
+                    </li>
+                    <li>Explore asynchronous programming with promises, <code>async/await</code>.</li>
+
+                </ul>
+            </article>
+        </section>
+        <section class="main-sec" id="node">
+            <h2>Node Js</h2>
+            <article>
+                <p>
+                    Node.js is a runtime environment that allows you to run JavaScript on the server-side.
+                </p>
+                <ul>
+                    <li>Learn the basics of Node.js, including the event loop and non-blocking I/O (e.g.,
+                        <code>require('http')</code>, <code>require('fs')</code>).</li>
+                    <li>Understand how to set up a Node.js project with npm (e.g., <code>npm init</code>,
+                        <code>npm install</code>).</li>
+                    <li>Explore the built-in modules (e.g., <code>fs</code>, <code>http</code>, <code>path</code>).</li>
+                    <li>Learn about creating and managing servers (e.g., <code>http.createServer</code>).</li>
+                    <li>Understand middleware and how to handle requests and responses (e.g., <code>express()</code>).
+                    </li>
+
+                </ul>
+            </article>
+        </section>
+        <section class="main-sec" id="express">
+            <h2>Express Js</h2>
+            <article>
+                <p>
+                    Express.js is a minimal and flexible Node.js web application framework that provides a robust
+                    set of features for web and mobile applications.
+                </p>
+                <ul>
+                    <li>Learn the basics of setting up an Express.js server (e.g.,
+                        <code>const express = require('express'); const app = express();</code>).</li>
+                    <li>Understand routing and handling different HTTP methods (e.g.,
+                        <code>app.get('/path', (req, res) => {...})</code>,
+                        <code>app.post('/path', (req, res) => {...})</code>).</li>
+                    <li>Explore middleware for request processing (e.g., <code>app.use(bodyParser.json())</code>,
+                        <code>app.use(cors())</code>).</li>
+                    <li>Learn about templating engines (e.g., <code>app.set('view engine', 'ejs')</code>,
+                        <code>res.render('template')</code>).</li>
+                    <li>Understand error handling and building RESTful APIs (e.g.,
+                        <code>app.use((err, req, res, next) => {...})</code>,
+                        <code>app.get('/api/resource', (req, res) => {...})</code>).</li>
+
+                </ul>
+            </article>
+        </section>
+        <section class="main-sec" id="db">
+            <h2>DATABASES</h2>
+            <article>
+                <p>
+                    Databases are used to store and manage data. For the MERN stack, MongoDB is commonly used.
+                </p>
+                <ul>
+                    <li>Understand the difference between SQL and NoSQL databases (e.g., <code>MySQL</code>,
+                        <code>PostgreSQL</code> vs. <code>MongoDB</code>, <code>Cassandra</code>).</li>
+                    <li>Learn basic CRUD operations (e.g., <code>CREATE TABLE</code>, <code>INSERT INTO</code>,
+                        <code>SELECT</code>, <code>UPDATE</code>, <code>DELETE</code> in SQL; <code>insertOne</code>,
+                        <code>find</code>, <code>updateOne</code>, <code>deleteOne</code> in NoSQL).</li>
+                    <li>Explore indexing and query optimization (e.g., <code>CREATE INDEX</code>, <code>EXPLAIN</code>
+                        in SQL; <code>createIndex</code>, <code>explain</code> in MongoDB).</li>
+                    <li>Understand relationships and data modeling (e.g., <code>PRIMARY KEY</code>,
+                        <code>FOREIGN KEY</code> in SQL; embedded documents, references in NoSQL).</li>
+                    <li>Learn about database security and backup strategies (e.g., <code>GRANT</code>,
+                        <code>REVOKE</code> in SQL; user roles and permissions in NoSQL).</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-sec" id="mongo">
+            <h2>MongoDB - NoSQL database</h2>
+            <article>
+                <p>
+                    MongoDB is a NoSQL database that uses a document-oriented data model. It's designed for
+                    scalability and flexibility.
+                </p>
+                <ul>
+                    <li>Learn the basics of MongoDB and its architecture (e.g., <code>documents</code>,
+                        <code>collections</code>, <code>databases</code>).</li>
+                    <li>Understand collections and documents (e.g., <code>db.collection.insertOne()</code>,
+                        <code>db.collection.find()</code>).</li>
+                    <li>Learn CRUD operations using MongoDB shell or drivers (e.g., <code>insertOne()</code>,
+                        <code>find()</code>, <code>updateOne()</code>, <code>deleteOne()</code>).</li>
+                    <li>Explore indexing and aggregation framework (e.g., <code>db.collection.createIndex()</code>,
+                        <code>db.collection.aggregate()</code>).</li>
+                    <li>Understand data modeling and schema design (e.g., embedding documents vs. referencing, schema
+                        validation).</li>
+
+                </ul>
+            </article>
+        </section>
+        <section class="main-sec" id="mongoose">
+            <h2>Mongoose </h2>
+            
+            <article>
+                <p>
+                    Mongoose is an ODM (Object Data Modeling) library for MongoDB and Node.js. It provides a
+                    schema-based solution to model your application data.
+                </p>
+                <ul>
+                    <li>Learn how to define schemas and models (e.g., <code>const mongoose = require('mongoose');</code>
+                        <code>const Schema = mongoose.Schema;</code> <code>const model = mongoose.model;</code>).</li>
+                    <li>Understand validation and schema types (e.g.,
+                        <code>const userSchema = new Schema({ name: { type: String, required: true } });</code>).</li>
+                    <li>Explore middleware (pre and post hooks) (e.g.,
+                        <code>userSchema.pre('save', function(next) { ... });</code>).</li>
+                    <li>Learn about querying and updating documents (e.g., <code>User.find()</code>,
+                        <code>User.findByIdAndUpdate()</code>).</li>
+                    <li>Understand relationships and population (e.g., <code>UserSchema</code> with <code>ref</code> for
+                        <code>populate</code>).</li>
+
+                </ul>
+            </article>
+        </section>
+        <section class="main-sec" id="hosting">
+            <h2>Hosting</h2>
+            <article>
+                <p>
+                    Hosting involves deploying your web application to a server where it can be accessed by users.
+                </p>
+                <ul>
+                    <li>Understand different types of hosting services (e.g., <code>Shared Hosting</code>,
+                        <code>VPS</code>, <code>Dedicated Hosting</code>, <code>Cloud Hosting</code>).</li>
+                    <li>Learn how to deploy a static site using services like GitHub Pages, Netlify, or Vercel (e.g.,
+                        <code>git push</code> to deploy).</li>
+                    <li>Explore deploying dynamic applications using platforms like Heroku, AWS, or DigitalOcean (e.g.,
+                        <code>git push heroku master</code>).</li>
+                    <li>Understand containerization and deploying with Docker (e.g., <code>docker build</code>,
+                        <code>docker run</code>, <code>docker-compose</code>).</li>
+                    <li>Learn about CI/CD pipelines for automated deployment (e.g., using GitHub Actions, Travis CI, or
+                        Jenkins).</li>
+
+                </ul>
+            </article>
+        </section>
+        <section class="main-sec" id="react">
+            <h2>React</h2>
+            <article>
+                <p>
+                    React is a JavaScript library for building user interfaces. It allows you to create reusable UI
+                    components.
+                </p>
+                <ul>
+                    <li>Learn the basics of React and its component-based architecture (e.g.,
+                        <code>import React from 'react';</code>).</li>
+                    <li>Understand JSX (e.g., <code>&lt;div&gt;Hello, World!&lt;/div&gt;</code>).</li>
+                    <li>Learn state and props (e.g., <code>this.state</code>, <code>this.props</code>).</li>
+                    <li>Explore handling events in React (e.g., <code>onClick</code>).</li>
+                    <li>Understand lifecycle methods (e.g., <code>componentDidMount</code>,
+                        <code>componentWillUnmount</code>).</li>
+                    <li>Learn about React hooks (e.g., <code>useState</code>, <code>useEffect</code>).</li>
+                    <li>Understand routing with React Router (e.g.,
+                        <code>&lt;Route path="/about" component={About} /&gt;</code>).</li>
+                    <li>Explore state management with Redux (e.g., <code>connect</code>, <code>mapStateToProps</code>).
+                    </li>
+                    <li>Learn about styling in React (e.g., CSS Modules, styled-components).</li>
+                    <li>Understand testing React applications (e.g., Jest, React Testing Library).</li>
+
+                </ul>
+            </article>
+        </section>
+        <section class="main-sec" id="next">
+            <h2>Next Js</h2>
+            <article>
+                <p>
+                    Next.js is a React framework that enables server-side rendering and generating static websites
+                    for React-based web applications.
+                </p>
+                <ul>
+                    <li>Learn the basics of Next.js and its server-side rendering (SSR) capabilities (e.g.,
+                        <code>npm install next react react-dom</code>).</li>
+                    <li>Understand pages and routing in Next.js (e.g., <code>pages/index.js</code>,
+                        <code>pages/about.js</code>).</li>
+                    <li>Explore dynamic routing and API routes (e.g., <code>pages/post/[id].js</code>,
+                        <code>pages/api/post/[id].js</code>).</li>
+                    <li>Learn about Next.js data fetching methods (e.g., <code>getStaticProps</code>,
+                        <code>getServerSideProps</code>).</li>
+                    <li>Understand layout components and shared components in Next.js (e.g., <code>_app.js</code>,
+                        <code>_document.js</code>).</li>
+                    <li>Explore Next.js Image Optimization (e.g.,
+                        <code>&lt;Image src="/image.jpg" alt="Image" width={500} height={300} /&gt;</code>).</li>
+                    <li>Learn about internationalization (i18n) support in Next.js (e.g., <code>next.config.js</code>,
+                        <code>getStaticPaths</code>).</li>
+                    <li>Understand how to deploy Next.js applications (e.g., <code>vercel</code> for automatic
+                        deployment).</li>
+                    <li>Explore TypeScript support in Next.js (e.g., <code>next.config.js</code>,
+                        <code>pages/api/hello.ts</code>).</li>
+                    <li>Learn about testing Next.js applications (e.g., <code>Jest</code>,
+                        <code>Testing Library</code>).</li>
+
+                </ul>
+            </article>
+        </section>
+        <section class="main-sec" id="project">
+            <h2>Main Sections - PROJECTS</h2>
+            <article>
+                <p>To gain a good command over MERN (MongoDB, Express.js, React, Node.js) development, it's essential to
+                    work on projects that cover various aspects of each technology. Here are some project ideas that can
+                    help you strengthen your skills in MERN stack development:</p>
+                <ul>
+                    <li>Task Manager Application</li>
+                    <li>E-commerce Website</li>
+                    <li>Social Media Dashboard</li>
+                    <li>Blog Platform</li>
+                    <li>Real-time Chat Application</li>
+                    <li>To-Do List Application</li>
+                    <li>Expense Tracker</li>
+                    <li>Weather Dashboard</li>
+                </ul>
+            </article>
+        </section>
+    </div>
+</div>
+</body>
+
+</html>
